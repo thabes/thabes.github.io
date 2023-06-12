@@ -77,8 +77,8 @@
                         I'm Shivam Thabe! A Software Engineer Building Awesome Cloud Native Webapps And Applications
                     </span>
                 </h1>
-                <button class="btn btn-theme home-hero__btn-theme">Projects</button>
-                <button class="btn btn-inv home-hero__btn-theme">Contact</button>
+                <button class="btn btn-theme home-hero__btn-theme" onclick="window.location.href='./index.html#projects';">Projects</button>
+                <button class="btn btn-inv home-hero__btn-theme" onclick="window.location.href='./index.html#contact';" >Contact</button>
             </div>
         </div>
     </section>
@@ -241,10 +241,15 @@
                                     protocols, Node.js, REST APIs, PostgreSQL
                                 </span>
                             </p>
-                            <button class="btn btn-theme projects__btn-theme">
-                                Live Link
-                            </button>
-                            <button class="btn btn-inv projects__btn-inv">Code Link</button>
+                            <a href="https://github.com/orgs/shivam-CSYE6225/repositories" target="_blank">
+                                <button class="btn btn-theme projects__btn-theme">
+                                    Live Link
+                                </button>
+                            </a>
+                            <a href="https://github.com/orgs/shivam-CSYE6225/repositories" target="_blank">
+                                <button class="btn btn-inv projects__btn-inv">Code Link</button>
+                            </a>
+
                         </div>
                     </div>
                     <div class="projects__list-item projects__list-item--inv">
@@ -271,10 +276,14 @@
                                     MongoDB, Socket.io, SMTP
                                 </span>
                             </p>
-                            <button class="btn btn-theme projects__btn-theme">
-                                Live Link
-                            </button>
-                            <button class="btn btn-inv projects__btn-inv">Code Link</button>
+                            <a href="https://github.com/shivamt24/theunibuddy" target="_blank">
+                                <button class="btn btn-theme projects__btn-theme">
+                                    Live Link
+                                </button>
+                            </a>
+                            <a href="https://github.com/shivamt24/theunibuddy" target="_blank">
+                                <button class="btn btn-inv projects__btn-inv">Code Link</button>
+                            </a>
                         </div>
                         <div class="projects__list-item-count">
                             <span class="projects__list-item-count-num"> 2 </span>
@@ -313,10 +322,14 @@
                                     Skills: Java, React.js, Mapbox, OOPS, Algorithms, Junit
                                 </span>
                             </p>
-                            <button class="btn btn-theme projects__btn-theme">
-                                Live Link
-                            </button>
-                            <button class="btn btn-inv projects__btn-inv">Code Link</button>
+                            <a href="https://github.com/shivamt24/CrimeRouteX" target="_blank"> 
+                                <button class="btn btn-theme projects__btn-theme">
+                                    Live Link
+                                </button>
+                            </a>
+                            <a href="https://github.com/shivamt24/CrimeRouteX" target="_blank"> 
+                                <button class="btn btn-inv projects__btn-inv">Code Link</button>
+                            </a>
                         </div>
                     </div>
                     <div class="projects__list-item projects__list-item--inv">
@@ -344,10 +357,14 @@
                                     Skills: Java, Java Swing, Docker, MySQL, MVC, Algorithms, Design Patterns
                                 </span>
                             </p>
-                            <button class="btn btn-theme projects__btn-theme">
-                                Live Link
-                            </button>
-                            <button class="btn btn-inv projects__btn-inv">Code Link</button>
+                            <a href="https://github.com/shivamt24/daycare" target="_blank">
+                                <button class="btn btn-theme projects__btn-theme">
+                                    Live Link
+                                </button>
+                            </a>
+                            <a href="https://github.com/shivamt24/daycare" target="_blank">
+                                <button class="btn btn-inv projects__btn-inv">Code Link</button>
+                            </a>
                         </div>
                         <div class="projects__list-item-count">
                             <span class="projects__list-item-count-num"> 4 </span>
@@ -377,12 +394,12 @@
                         </div>
                         <div class="contact__form-field">
                             <label for="name" class="contact__form-field-label">Email</label>
-                            <input placeholder="Enter Your Email" type="email" name="email" class="contact__form-field-input" />
+                            <input placeholder="Enter Your Email" type="email" name="email" class="contact__form-field-input" required="required"/>
                         </div>
                         <div class="contact__form-field">
                             <label for="name" class="contact__form-field-label">Message</label>
                             <textarea placeholder="Enter Your Message" name="message" id="" cols="30" rows="10"
-                                class="contact__form-field-input"></textarea>
+                                class="contact__form-field-input" required="required"></textarea>
                         </div>
                         <button type="submit" class="contact__form-submit">Submit</button>
                     </form>
